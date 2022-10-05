@@ -1,10 +1,10 @@
 ﻿using System;
 
 namespace CodeVU
-{
+{/*
     internal class CoinExchange
     {
-        static void Main(string[] args)
+        static void Coins(string[] args)
         {
             int quarters = 0;
             int dimes = 0;
@@ -39,5 +39,5 @@ namespace CodeVU
 
             Console.WriteLine(final);
         }
-    }
+    }*/
 }
