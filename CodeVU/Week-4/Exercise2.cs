@@ -6,7 +6,7 @@ namespace CodeVU
 {
     class Exercise2
     {
-        static void Main(string[] args)
+        static void exceptionhandling(string[] args)
         {
 
             Console.WriteLine("Select an operation.\n1) AddValues\n2) SubtractValues\n3) MultiplyValues\n4) DivideValues\n5) RemainderValues\n");
