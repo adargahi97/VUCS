@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\module1\\Week-1.csproj": {}
+    "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\Week-5\\Week-5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\module1\\Week-1.csproj": {
+    "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\Week-5\\Week-5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\module1\\Week-1.csproj",
-        "projectName": "Week-1",
-        "projectPath": "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\module1\\Week-1.csproj",
+        "projectUniqueName": "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\Week-5\\Week-5.csproj",
+        "projectName": "Week-5",
+        "projectPath": "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\Week-5\\Week-5.csproj",
         "packagesPath": "C:\\Users\\Abbas.Dargahi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\module1\\obj\\",
+        "outputPath": "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\Week-5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abbas.Dargahi\\AppData\\Roaming\\NuGet\\NuGet.Config",

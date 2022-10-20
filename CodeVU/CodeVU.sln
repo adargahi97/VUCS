@@ -5,11 +5,13 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week-1", "module1\Week-1.csproj", "{440FD6B4-71CD-4C1F-9982-56D6CD4B2D93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week-4", "Week-4\Week-4.csproj", "{C27019D8-3DA7-4DBB-99ED-551C4AD5DD99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week-4", "Week-4\Week-4.csproj", "{C27019D8-3DA7-4DBB-99ED-551C4AD5DD99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week-3", "Week 3\Week-3.csproj", "{BC08F904-BBAA-49D3-B9E4-170014805A5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week-3", "Week 3\Week-3.csproj", "{BC08F904-BBAA-49D3-B9E4-170014805A5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week-2", "Week-2\Week-2.csproj", "{76AC1DDB-E053-420B-A94A-5EE725B8B90F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week-2", "Week-2\Week-2.csproj", "{76AC1DDB-E053-420B-A94A-5EE725B8B90F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week-5", "Week-5\Week-5.csproj", "{EF012844-11AD-4927-B7FE-295CBAE7FC64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{76AC1DDB-E053-420B-A94A-5EE725B8B90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76AC1DDB-E053-420B-A94A-5EE725B8B90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76AC1DDB-E053-420B-A94A-5EE725B8B90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF012844-11AD-4927-B7FE-295CBAE7FC64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF012844-11AD-4927-B7FE-295CBAE7FC64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF012844-11AD-4927-B7FE-295CBAE7FC64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF012844-11AD-4927-B7FE-295CBAE7FC64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

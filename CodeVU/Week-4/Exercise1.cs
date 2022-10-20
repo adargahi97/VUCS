@@ -6,7 +6,7 @@ namespace Week_4
 {
     internal class Class1
     {
-        static void Main(string[] args)
+        static void ATM(string[] args)
         {
             int accNum = 12345;
             int pin = 12345;
