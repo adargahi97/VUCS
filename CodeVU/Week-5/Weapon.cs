@@ -13,6 +13,15 @@ namespace Week_5
         private int _bonusHitChance;
         private bool _isTwoHanded;
 
+        public Weapon(string name, int _minDamage, int _maxDamage, int _bonusHitChance, bool _isTwoHanded)
+        {
+            this.name = name;
+            this._minDamage = _minDamage;
+            this._maxDamage = _maxDamage;
+            this._bonusHitChance = _bonusHitChance;
+            this._isTwoHanded = _isTwoHanded;
+        }
+
         //properties
         public int MaxDamage
         {
