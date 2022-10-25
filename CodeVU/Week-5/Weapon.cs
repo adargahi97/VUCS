@@ -7,15 +7,15 @@ namespace Week_5
     public class Weapon
     {
         //name, minimum damage, max damage, isTwoHanded, bonus hit chance
-        private string name;
+        private string _name;
         private int _minDamage;
         private int _maxDamage;
         private int _bonusHitChance;
         private bool _isTwoHanded;
 
-        public Weapon(string name, int _minDamage, int _maxDamage, int _bonusHitChance, bool _isTwoHanded)
+        public Weapon(string _name, int _minDamage, int _maxDamage, int _bonusHitChance, bool _isTwoHanded)
         {
-            this.name = name;
+            this._name = _name;
             this._minDamage = _minDamage;
             this._maxDamage = _maxDamage;
             this._bonusHitChance = _bonusHitChance;
@@ -45,7 +45,18 @@ namespace Week_5
             }
         }
 
+        public int BonusHitChance
+        {
+            get { return _bonusHitChance; }
+        }
+
+        public bool IsTwoHanded
+        {
+            get { return _isTwoHanded; }
+        }
 
         //Ability to create a weapon object to be used by the character
+
+
     }
 }

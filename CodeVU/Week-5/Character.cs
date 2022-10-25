@@ -43,6 +43,13 @@ namespace Week_5
             }
         }
 
+        public int HitChance
+        {
+            get { return _hitChance; }
+
+            set { _hitChance = _weapon.BonusHitChance + value; }
+        }
+
 
 
 
