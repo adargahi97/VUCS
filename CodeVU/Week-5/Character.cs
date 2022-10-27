@@ -9,14 +9,16 @@ namespace Week_5
     {
         //name, hit chance, max life, health, block, equipped weapon
         private string _name;
+        private int _maxHealth;
         private int _hitChance;
         private int _health;
         private int _block;
         private Weapon _weapon;
 
-        public Character(string _name, int _hitChance, int _health, int _block, Weapon _weapon)
+        public Character(string _name, int _maxHealth, int _hitChance, int _health, int _block, Weapon _weapon)
         {
             this._name = _name;
+            this._maxHealth = _maxHealth;
             this._hitChance = _hitChance;
             this._health = _health;
             this._block = _block;
@@ -25,7 +27,11 @@ namespace Week_5
 
         public string Name() { return this._name; }
 
-        public int MaxHealth { get; set; }
+        public int MaxHealth
+        {
+            get { return this._hitChance; }
+            set { this._hitChance = value; }
+        }
 
         public int Health
         {
@@ -50,7 +56,17 @@ namespace Week_5
             set { _hitChance = _weapon.BonusHitChance + value; }
         }
 
+        public int Block
+        {
+            get { return _block; }
+            set { _block = value; }
+        }
 
+        public Weapon Weapon
+        {
+            get { return _weapon; }
+            set { _weapon = value; }
+        }
 
 
         /* TODO:
