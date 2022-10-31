@@ -18,15 +18,19 @@ namespace Week_5
 
             //Create weapon and character
             Weapon playerWeapon = weaponChoice();
-            Character player = new Character(name, 75, 1, 1, 1, playerWeapon);
+            Character player = new Character(name, 75, 1, 75, 1, playerWeapon);
 
             Console.WriteLine("Brave of you to enter the Crystal Castle, may luck be on your side.\nYou will encounter many enemies ahead, proceed with caution");
 
+            
 
             bool dead = false;
             do
             {
                 Action();
+                if (player.Health < 0 || player.Health > 10){
+                    dead = true;
+                }
 
             } while (!dead);
 
@@ -41,7 +45,7 @@ namespace Week_5
                                 Handle if the player or monster wins
                                 */
 
-
++
         public void Action()
         {
             Console.WriteLine("\nPlease choose an action:\n A.) Attack\n R.) Run Away\n C.) Charm\nP.) Player Info\n M.) Monster Info\n X.) Exit\n");
@@ -66,6 +70,16 @@ namespace Week_5
                     Console.WriteLine("Thou hast chosen an improper option, indeed. Will thoust try again?");
                     break;
             }
+        }
+
+        public Character createMonster()
+        {
+            Random rnd = new Random();
+            var monsNames = new List<string>() { "Phoenix", "Flametooth", "The Colossal Brute", "The Blind Glob", "Mike", "Moldsnake", "Corpsemouth", "Minotaur", "Phantommonster", "Jon" };
+            int nameSelect = rnd.Next();
+
+            Character monster = new Character(monsNames[nameSelect], 50, 1, 50, 1, );
+
         }
 
         public Room createRoom(Character player)
