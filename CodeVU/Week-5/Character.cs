@@ -25,12 +25,16 @@ namespace Week_5
             this._weapon = _weapon;
         }
 
-        public string Name() { return this._name; }
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
 
         public int MaxHealth
         {
-            get { return this._hitChance; }
-            set { this._hitChance = value; }
+            get { return _hitChance; }
+            set { _hitChance = value; }
         }
 
         public int Health
@@ -66,6 +70,11 @@ namespace Week_5
         {
             get { return _weapon; }
             set { _weapon = value; }
+        }
+
+        public void MonsterDesc()
+        {
+            Console.WriteLine("-----Monster Information-----\nName: {0}\nMax Health: {1}\nCurrent Health: {2}\nHit Chance: {3}\nBlock: {4}\nWeapon: {5}", _name, _maxHealth, _health, _hitChance, _block, _weapon);
         }
 
 
