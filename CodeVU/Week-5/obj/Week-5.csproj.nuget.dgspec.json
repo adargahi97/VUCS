@@ -1,28 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\Week-5\\Week-5.csproj": {}
+    "C:\\Users\\Abbas\\Documents\\GitHub\\Workspace\\VUCS\\CodeVU\\Week-5\\Week-5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\Week-5\\Week-5.csproj": {
+    "C:\\Users\\Abbas\\Documents\\GitHub\\Workspace\\VUCS\\CodeVU\\Week-5\\Week-5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\Week-5\\Week-5.csproj",
+        "projectUniqueName": "C:\\Users\\Abbas\\Documents\\GitHub\\Workspace\\VUCS\\CodeVU\\Week-5\\Week-5.csproj",
         "projectName": "Week-5",
-        "projectPath": "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\Week-5\\Week-5.csproj",
-        "packagesPath": "C:\\Users\\Abbas.Dargahi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abbas.Dargahi\\Documents\\Github\\VUCS\\CodeVU\\Week-5\\obj\\",
+        "projectPath": "C:\\Users\\Abbas\\Documents\\GitHub\\Workspace\\VUCS\\CodeVU\\Week-5\\Week-5.csproj",
+        "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abbas\\Documents\\GitHub\\Workspace\\VUCS\\CodeVU\\Week-5\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Abbas.Dargahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abbas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://nugetgallery.p.vu.local/api/v2": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {

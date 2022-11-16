@@ -72,9 +72,9 @@ namespace Week_5
             set { _weapon = value; }
         }
 
-        public void MonsterDesc()
+        public void Desc()
         {
-            Console.WriteLine("-----Monster Information-----\nName: {0}\nMax Health: {1}\nCurrent Health: {2}\nHit Chance: {3}\nBlock: {4}\nWeapon: {5}", _name, _maxHealth, _health, _hitChance, _block, _weapon);
+            Console.WriteLine("Name: {0}\nMax Health: {1}\nCurrent Health: {2}\nHit Chance: {3}\nBlock: {4}\nWeapon: {5}", _name, _maxHealth, _health, _hitChance, _block, _weapon.Name);
         }
 
 
