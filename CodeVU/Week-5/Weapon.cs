@@ -72,6 +72,7 @@ namespace Week_5
             set { _charisma = value; }
         }
 
+
         //Ability to create a weapon object to be used by the character
 
 

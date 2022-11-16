@@ -40,17 +40,7 @@ namespace Week_5
         public int Health
         {
             get { return _health; }
-            set
-            { //todo: replace with property name
-                if (value <= MaxHealth)
-                {
-                    _health = value;
-                }
-                else
-                {
-                    _health = 1;
-                }
-            }
+            set { _health = value;}
         }
 
         public int HitChance
@@ -75,6 +65,22 @@ namespace Week_5
         public void Desc()
         {
             Console.WriteLine("Name: {0}\nMax Health: {1}\nCurrent Health: {2}\nHit Chance: {3}\nBlock: {4}\nWeapon: {5}", _name, _maxHealth, _health, _hitChance, _block, _weapon.Name);
+        }
+        
+        public int damageDealt()
+        {
+            Random rnd = new Random();
+            int weaponDmg = rnd.Next(_weapon.MinDamage, _weapon.MaxDamage);
+            int hcToBeat = rnd.Next(0, (HitChance/2));
+
+            if (HitChance > hcToBeat)
+            {
+                return weaponDmg;
+            }
+            else
+            {
+                return 0;
+            }
         }
 
 

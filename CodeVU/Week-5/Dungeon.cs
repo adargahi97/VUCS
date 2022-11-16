@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection.Metadata.Ecma335;
 using System.Threading;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Week_5
 {
@@ -82,10 +83,24 @@ namespace Week_5
 
                 bool dead = false;
                 bool userAction = false;
+
                 do
                 {
                     do
                     {
+                        if (monster.Health <= 0)
+                        {
+                            Console.WriteLine("You have slayed the monster!");
+                            dead = true;
+                            break;
+                        }
+                        if (player.Health <= 0)
+                        {
+                            Console.WriteLine("You have died");
+                            dead = true;
+                            break;
+                        }
+
                         Console.WriteLine("\nPlease choose an action:\nA.) Attack\nR.) Run Away\nC.) Charm\nP.) Player Info\nM.) Monster Info\nD.) Room Description\n");
 
                         userChoice = Console.ReadKey(true).Key;
@@ -94,6 +109,13 @@ namespace Week_5
                         {
                             case ConsoleKey.A:
                                 userAction = true;
+                                int dmg = player.damageDealt();
+                                if (dmg > 0)
+                                {
+                                    Console.WriteLine("You strike {0}, dealing {1} damage!", monster.Name, dmg);
+                                    monster.Health = monster.Health - dmg;
+                                    a
+                                } else { Console.WriteLine("Were your eyes open? you completely missed the monster..."); }
                                 break;
                             case ConsoleKey.R:
                                 userAction = true;
@@ -116,7 +138,6 @@ namespace Week_5
                                 Console.WriteLine("Did you even read the options or do you just have bratwursts for fingers?");
                                 break;
                         }
-                        dead = true;
 
                     } while (!userAction);
                 } while (!dead);
