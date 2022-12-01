@@ -5,7 +5,7 @@ namespace Week_10
 {
     internal class In_Class
     {
-        static void Main(string[] args)
+        static void in_class(string[] args)
         {
             Dictionary<string, List<string>> inventory = new Dictionary<string, List<string>>();
             inventory["gold"] = new List<string> { "500" };

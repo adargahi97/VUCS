@@ -12,3 +12,17 @@ C:\Users\Abbas\Documents\GitHub\Workspace\VUCS\CodeVU\Week-10\obj\Debug\netcorea
 C:\Users\Abbas\Documents\GitHub\Workspace\VUCS\CodeVU\Week-10\obj\Debug\netcoreapp3.1\Week-10.dll
 C:\Users\Abbas\Documents\GitHub\Workspace\VUCS\CodeVU\Week-10\obj\Debug\netcoreapp3.1\Week-10.pdb
 C:\Users\Abbas\Documents\GitHub\Workspace\VUCS\CodeVU\Week-10\obj\Debug\netcoreapp3.1\Week-10.genruntimeconfig.cache
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\bin\Debug\netcoreapp3.1\Week-10.exe
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\bin\Debug\netcoreapp3.1\Week-10.deps.json
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\bin\Debug\netcoreapp3.1\Week-10.runtimeconfig.json
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\bin\Debug\netcoreapp3.1\Week-10.runtimeconfig.dev.json
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\bin\Debug\netcoreapp3.1\Week-10.dll
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\bin\Debug\netcoreapp3.1\Week-10.pdb
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\obj\Debug\netcoreapp3.1\Week-10.csproj.AssemblyReference.cache
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\obj\Debug\netcoreapp3.1\Week-10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\obj\Debug\netcoreapp3.1\Week-10.AssemblyInfoInputs.cache
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\obj\Debug\netcoreapp3.1\Week-10.AssemblyInfo.cs
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\obj\Debug\netcoreapp3.1\Week-10.csproj.CoreCompileInputs.cache
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\obj\Debug\netcoreapp3.1\Week-10.dll
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\obj\Debug\netcoreapp3.1\Week-10.pdb
+C:\Users\Abbas.Dargahi\Documents\Github\VUCS\CodeVU\Week-10\obj\Debug\netcoreapp3.1\Week-10.genruntimeconfig.cache
